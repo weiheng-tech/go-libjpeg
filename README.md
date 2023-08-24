@@ -1,9 +1,6 @@
 go-libjpeg
 ==========
 
-[![GoDoc](https://godoc.org/github.com/pixiv/go-libjpeg/jpeg?status.svg)](https://godoc.org/github.com/pixiv/go-libjpeg/jpeg)
-[![Build Status](https://travis-ci.org/pixiv/go-libjpeg.svg?branch=master)](https://travis-ci.org/pixiv/go-libjpeg)
-
 An implementation of Go binding for LibJpeg (preferably libjpeg-turbo).
 
 The core codes are picked from [go-thumber](http://github.com/pixiv/go-thumber)
@@ -12,7 +9,7 @@ and rewritten to compatible with image.Image interface.
 ## Usage
 
 ```
-import "github.com/pixiv/go-libjpeg/jpeg"
+import "github.com/ssbeatty/go-libjpeg/jpeg"
 
 func main() {
     // Decoding JPEG into image.Image
@@ -72,7 +69,7 @@ With libjpeg-turbo, it can make more faster (about 4.8x faster than image/jpeg).
 
 ### Dependencies
 
-* Go 1.6 or later.
+* Go 1.16 or later.
 * libjpeg (preferably libjpeg-turbo)
 
     DecodeIntoRGBA can only work if go-libjpeg is built with libjpeg-turbo.

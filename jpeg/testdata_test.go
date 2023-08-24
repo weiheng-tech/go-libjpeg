@@ -39,8 +39,8 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/pixiv/go-libjpeg/jpeg"
-	"github.com/pixiv/go-libjpeg/test/util"
+	"github.com/ssbeatty/go-libjpeg/jpeg"
+	"github.com/ssbeatty/go-libjpeg/test/util"
 )
 
 type imageTest struct {
