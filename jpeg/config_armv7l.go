@@ -3,6 +3,6 @@
 
 package jpeg
 
-// #cgo CFLAGS: -I./include/armv7l
+// #cgo CFLAGS: -I./include
 // #cgo LDFLAGS: -L./lib/armv7l
 import "C"

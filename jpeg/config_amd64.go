@@ -3,6 +3,6 @@
 
 package jpeg
 
-// #cgo CFLAGS: -I./include/amd64
+// #cgo CFLAGS: -I./include
 // #cgo LDFLAGS: -L./lib/amd64
 import "C"
