@@ -4,5 +4,5 @@
 package jpeg
 
 // #cgo CFLAGS: -I./include
-// #cgo LDFLAGS: -L./lib/amd64
+// #cgo LDFLAGS: -static-libgcc -static-libstdc++ -L./lib/amd64
 import "C"

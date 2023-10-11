@@ -4,5 +4,5 @@
 package jpeg
 
 // #cgo CFLAGS: -I./include
-// #cgo LDFLAGS: -L./lib/armv7l
+// #cgo LDFLAGS: -static-libgcc -static-libstdc++ -L./lib/armv7l
 import "C"
