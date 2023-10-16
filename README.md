@@ -9,7 +9,7 @@ and rewritten to compatible with image.Image interface.
 ## Usage
 
 ```
-import "github.com/ssbeatty/go-libjpeg/jpeg"
+import "github.com/weiheng-tech/go-libjpeg/jpeg"
 
 func main() {
     // Decoding JPEG into image.Image

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ssbeatty/go-libjpeg/jpeg"
+	"github.com/weiheng-tech/go-libjpeg/jpeg"
 )
 
 // https://github.com/pixiv/go-libjpeg/issues/55
